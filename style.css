@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 5rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+h1 {
+    text-align: center;
+    border: 1px solid black;
+    margin: 3rem auto;
+    padding: 2rem;
+}
+
+.content {
+    text-align: center;
+    list-style: none;
+    line-height: 3rem;
+    border: 2px solid black;
+    margin: 2rem auto;
+    border-radius: 1rem; 
+    max-width: 600px; 
+    background-color: hsl(195, 53%, 79%);
+    padding: 1rem;
+    
+}
+
+ul#visited a {
+    color: hsl(0, 0%, 0%);
+
+}
+ul li a:visited {
+    color: red;
+}
+
+
+a:hover, a:focus {
+    text-decoration: none;
+    cursor: pointer;
+}
+a:active {
+    color: red;
+}
