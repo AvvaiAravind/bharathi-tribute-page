@@ -113,13 +113,15 @@ blockquote {
 #legacy :last-child {
   margin-top: 2rem;
 }
-footer {
+footer  {
   margin: 2rem;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   font-size: 1.3rem;
   border-top: 1px solid black;
 }
+
+
 a:hover, a:focus {
   text-decoration: none;
 }
